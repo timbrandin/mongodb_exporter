@@ -8,3 +8,4 @@ coverage_temp.txt
 /.history
 /.idea
 vendor
+*.bak

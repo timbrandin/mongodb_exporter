@@ -24,9 +24,9 @@ import (
 	// "gopkg.in/mgo.v2"
 	"github.com/globalsign/mgo"
 
-	"github.com/percona/mongodb_exporter/collector/mongod"
-	"github.com/percona/mongodb_exporter/collector/mongos"
-	"github.com/percona/mongodb_exporter/shared"
+	"github.com/timbrandin/mongodb_exporter/collector/mongod"
+	"github.com/timbrandin/mongodb_exporter/collector/mongos"
+	"github.com/timbrandin/mongodb_exporter/shared"
 )
 
 const namespace = "mongodb"

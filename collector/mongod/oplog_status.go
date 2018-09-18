@@ -22,7 +22,7 @@ import (
 	"github.com/globalsign/mgo"
 	"github.com/globalsign/mgo/bson"
 
-	"github.com/percona/mongodb_exporter/shared"
+	"github.com/timbrandin/mongodb_exporter/shared"
 )
 
 var (
