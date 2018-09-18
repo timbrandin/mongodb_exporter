@@ -24,7 +24,8 @@ import (
 	"time"
 
 	"github.com/prometheus/common/log"
-	"gopkg.in/mgo.v2"
+	// "gopkg.in/mgo.v2"
+	"github.com/globalsign/mgo"
 )
 
 func RedactMongoUri(uri string) string {

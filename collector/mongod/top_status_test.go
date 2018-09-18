@@ -3,7 +3,8 @@ package mongod
 import (
 	"testing"
 
-	"gopkg.in/mgo.v2/bson"
+	// "gopkg.in/mgo.v2/bson"
+	"github.com/globalsign/mgo/bson"
 )
 
 func Test_ParserTopStatus(t *testing.T) {

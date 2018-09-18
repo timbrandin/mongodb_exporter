@@ -24,7 +24,8 @@ import (
 
 	"github.com/andreyvit/diff"
 	"github.com/stretchr/testify/assert"
-	"gopkg.in/mgo.v2"
+	// "gopkg.in/mgo.v2"
+	"github.com/globalsign/mgo"
 )
 
 var Update = flag.Bool("update", false, "update .golden files")

@@ -21,7 +21,8 @@ import (
 
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/common/log"
-	"gopkg.in/mgo.v2"
+	// "gopkg.in/mgo.v2"
+	"github.com/globalsign/mgo"
 
 	"github.com/percona/mongodb_exporter/collector/mongod"
 	"github.com/percona/mongodb_exporter/collector/mongos"
